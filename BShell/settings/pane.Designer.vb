@@ -422,6 +422,7 @@ Partial Class pane
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.DarkGray
         Me.ClientSize = New System.Drawing.Size(692, 542)
         Me.Controls.Add(Me.PictureBox6)
         Me.Controls.Add(Me.GroupBox2)

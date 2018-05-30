@@ -52,6 +52,7 @@ Partial Class runbox
         'Label1
         '
         Me.Label1.AutoSize = True
+        Me.Label1.ForeColor = System.Drawing.Color.White
         Me.Label1.Location = New System.Drawing.Point(9, 9)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(183, 13)
@@ -84,6 +85,7 @@ Partial Class runbox
         '
         Me.CheckBox1.AutoSize = True
         Me.CheckBox1.Enabled = False
+        Me.CheckBox1.ForeColor = System.Drawing.Color.White
         Me.CheckBox1.Location = New System.Drawing.Point(9, 43)
         Me.CheckBox1.Name = "CheckBox1"
         Me.CheckBox1.Size = New System.Drawing.Size(163, 17)
@@ -95,6 +97,7 @@ Partial Class runbox
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.Black
         Me.ClientSize = New System.Drawing.Size(352, 127)
         Me.Controls.Add(Me.CheckBox1)
         Me.Controls.Add(Me.Button3)

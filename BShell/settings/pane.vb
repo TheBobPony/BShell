@@ -83,7 +83,7 @@
     End Sub
 
     Private Sub LinkLabel17_LinkClicked(ByVal sender As System.Object, ByVal e As System.Windows.Forms.LinkLabelLinkClickedEventArgs) Handles LinkLabel17.LinkClicked
-        Process.Start("control.exe sysdm.cpl")
+        Shell("control.exe sysdm.cpl")
     End Sub
 
     Private Sub LinkLabel6_LinkClicked_1(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles LinkLabel6.LinkClicked

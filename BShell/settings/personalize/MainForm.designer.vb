@@ -44,6 +44,7 @@ Partial Class MainForm
         'radFit
         '
         Me.radFit.AutoSize = True
+        Me.radFit.ForeColor = System.Drawing.Color.White
         Me.radFit.Location = New System.Drawing.Point(7, 92)
         Me.radFit.Name = "radFit"
         Me.radFit.Size = New System.Drawing.Size(36, 17)
@@ -64,6 +65,7 @@ Partial Class MainForm
         'radFill
         '
         Me.radFill.AutoSize = True
+        Me.radFill.ForeColor = System.Drawing.Color.White
         Me.radFill.Location = New System.Drawing.Point(7, 116)
         Me.radFill.Name = "radFill"
         Me.radFill.Size = New System.Drawing.Size(37, 17)
@@ -74,6 +76,7 @@ Partial Class MainForm
         'label2
         '
         Me.label2.AutoSize = True
+        Me.label2.ForeColor = System.Drawing.Color.White
         Me.label2.Location = New System.Drawing.Point(7, 52)
         Me.label2.Name = "label2"
         Me.label2.Size = New System.Drawing.Size(80, 13)
@@ -104,6 +107,7 @@ Partial Class MainForm
         Me.groupBox1.Controls.Add(Me.radStretch)
         Me.groupBox1.Controls.Add(Me.radCenter)
         Me.groupBox1.Controls.Add(Me.radTile)
+        Me.groupBox1.ForeColor = System.Drawing.Color.White
         Me.groupBox1.Location = New System.Drawing.Point(311, 68)
         Me.groupBox1.Name = "groupBox1"
         Me.groupBox1.Size = New System.Drawing.Size(88, 146)
@@ -115,6 +119,7 @@ Partial Class MainForm
         '
         Me.radStretch.AutoSize = True
         Me.radStretch.Checked = True
+        Me.radStretch.ForeColor = System.Drawing.Color.White
         Me.radStretch.Location = New System.Drawing.Point(7, 68)
         Me.radStretch.Name = "radStretch"
         Me.radStretch.Size = New System.Drawing.Size(59, 17)
@@ -126,6 +131,7 @@ Partial Class MainForm
         'radCenter
         '
         Me.radCenter.AutoSize = True
+        Me.radCenter.ForeColor = System.Drawing.Color.White
         Me.radCenter.Location = New System.Drawing.Point(7, 44)
         Me.radCenter.Name = "radCenter"
         Me.radCenter.Size = New System.Drawing.Size(56, 17)
@@ -136,6 +142,7 @@ Partial Class MainForm
         'radTile
         '
         Me.radTile.AutoSize = True
+        Me.radTile.ForeColor = System.Drawing.Color.White
         Me.radTile.Location = New System.Drawing.Point(7, 20)
         Me.radTile.Name = "radTile"
         Me.radTile.Size = New System.Drawing.Size(42, 17)
@@ -160,6 +167,7 @@ Partial Class MainForm
         'label1
         '
         Me.label1.AutoSize = True
+        Me.label1.ForeColor = System.Drawing.Color.White
         Me.label1.Location = New System.Drawing.Point(7, 13)
         Me.label1.Name = "label1"
         Me.label1.Size = New System.Drawing.Size(55, 13)
@@ -170,6 +178,7 @@ Partial Class MainForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.Black
         Me.ClientSize = New System.Drawing.Size(404, 293)
         Me.Controls.Add(Me.btnSetWallpaper)
         Me.Controls.Add(Me.label2)

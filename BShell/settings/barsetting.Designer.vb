@@ -55,15 +55,15 @@ Partial Class barsetting
         Me.RadioButton4 = New System.Windows.Forms.RadioButton()
         Me.RadioButton3 = New System.Windows.Forms.RadioButton()
         Me.GroupBox8 = New System.Windows.Forms.GroupBox()
+        Me.CheckBox9 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox8 = New System.Windows.Forms.CheckBox()
+        Me.CheckBox7 = New System.Windows.Forms.CheckBox()
         Me.CheckBox5 = New System.Windows.Forms.CheckBox()
         Me.GroupBox7 = New System.Windows.Forms.GroupBox()
         Me.ComboBox1 = New System.Windows.Forms.ComboBox()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Button6 = New System.Windows.Forms.Button()
-        Me.CheckBox7 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox8 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox9 = New System.Windows.Forms.CheckBox()
         Me.GroupBox1.SuspendLayout()
         Me.TabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
@@ -158,6 +158,7 @@ Partial Class barsetting
         '
         'TabPage1
         '
+        Me.TabPage1.BackColor = System.Drawing.Color.DarkGray
         Me.TabPage1.Controls.Add(Me.GroupBox3)
         Me.TabPage1.Controls.Add(Me.GroupBox2)
         Me.TabPage1.Location = New System.Drawing.Point(4, 22)
@@ -166,7 +167,6 @@ Partial Class barsetting
         Me.TabPage1.Size = New System.Drawing.Size(486, 385)
         Me.TabPage1.TabIndex = 0
         Me.TabPage1.Text = "Bar"
-        Me.TabPage1.UseVisualStyleBackColor = True
         '
         'GroupBox3
         '
@@ -283,6 +283,7 @@ Partial Class barsetting
         '
         'TabPage2
         '
+        Me.TabPage2.BackColor = System.Drawing.Color.DarkGray
         Me.TabPage2.Controls.Add(Me.GroupBox6)
         Me.TabPage2.Controls.Add(Me.Button5)
         Me.TabPage2.Controls.Add(Me.RadioButton2)
@@ -293,7 +294,6 @@ Partial Class barsetting
         Me.TabPage2.Size = New System.Drawing.Size(486, 385)
         Me.TabPage2.TabIndex = 1
         Me.TabPage2.Text = "Menu"
-        Me.TabPage2.UseVisualStyleBackColor = True
         '
         'GroupBox6
         '
@@ -378,6 +378,7 @@ Partial Class barsetting
         '
         'TabPage3
         '
+        Me.TabPage3.BackColor = System.Drawing.Color.DarkGray
         Me.TabPage3.Controls.Add(Me.GroupBox9)
         Me.TabPage3.Controls.Add(Me.GroupBox8)
         Me.TabPage3.Controls.Add(Me.GroupBox7)
@@ -388,7 +389,6 @@ Partial Class barsetting
         Me.TabPage3.Size = New System.Drawing.Size(486, 385)
         Me.TabPage3.TabIndex = 2
         Me.TabPage3.Text = "Search"
-        Me.TabPage3.UseVisualStyleBackColor = True
         '
         'GroupBox9
         '
@@ -449,6 +449,45 @@ Partial Class barsetting
         Me.GroupBox8.TabStop = False
         Me.GroupBox8.Text = "File Types"
         '
+        'CheckBox9
+        '
+        Me.CheckBox9.AutoSize = True
+        Me.CheckBox9.Checked = True
+        Me.CheckBox9.CheckState = System.Windows.Forms.CheckState.Checked
+        Me.CheckBox9.Enabled = False
+        Me.CheckBox9.Location = New System.Drawing.Point(187, 16)
+        Me.CheckBox9.Name = "CheckBox9"
+        Me.CheckBox9.Size = New System.Drawing.Size(76, 17)
+        Me.CheckBox9.TabIndex = 3
+        Me.CheckBox9.Text = "Text Docs."
+        Me.CheckBox9.UseVisualStyleBackColor = True
+        '
+        'CheckBox8
+        '
+        Me.CheckBox8.AutoSize = True
+        Me.CheckBox8.Checked = True
+        Me.CheckBox8.CheckState = System.Windows.Forms.CheckState.Checked
+        Me.CheckBox8.Enabled = False
+        Me.CheckBox8.Location = New System.Drawing.Point(120, 16)
+        Me.CheckBox8.Name = "CheckBox8"
+        Me.CheckBox8.Size = New System.Drawing.Size(61, 17)
+        Me.CheckBox8.TabIndex = 2
+        Me.CheckBox8.Text = "Videos"
+        Me.CheckBox8.UseVisualStyleBackColor = True
+        '
+        'CheckBox7
+        '
+        Me.CheckBox7.AutoSize = True
+        Me.CheckBox7.Checked = True
+        Me.CheckBox7.CheckState = System.Windows.Forms.CheckState.Checked
+        Me.CheckBox7.Enabled = False
+        Me.CheckBox7.Location = New System.Drawing.Point(52, 16)
+        Me.CheckBox7.Name = "CheckBox7"
+        Me.CheckBox7.Size = New System.Drawing.Size(62, 17)
+        Me.CheckBox7.TabIndex = 1
+        Me.CheckBox7.Text = "Images"
+        Me.CheckBox7.UseVisualStyleBackColor = True
+        '
         'CheckBox5
         '
         Me.CheckBox5.AutoSize = True
@@ -508,49 +547,11 @@ Partial Class barsetting
         Me.Button6.Text = "Close"
         Me.Button6.UseVisualStyleBackColor = True
         '
-        'CheckBox7
-        '
-        Me.CheckBox7.AutoSize = True
-        Me.CheckBox7.Checked = True
-        Me.CheckBox7.CheckState = System.Windows.Forms.CheckState.Checked
-        Me.CheckBox7.Enabled = False
-        Me.CheckBox7.Location = New System.Drawing.Point(52, 16)
-        Me.CheckBox7.Name = "CheckBox7"
-        Me.CheckBox7.Size = New System.Drawing.Size(62, 17)
-        Me.CheckBox7.TabIndex = 1
-        Me.CheckBox7.Text = "Images"
-        Me.CheckBox7.UseVisualStyleBackColor = True
-        '
-        'CheckBox8
-        '
-        Me.CheckBox8.AutoSize = True
-        Me.CheckBox8.Checked = True
-        Me.CheckBox8.CheckState = System.Windows.Forms.CheckState.Checked
-        Me.CheckBox8.Enabled = False
-        Me.CheckBox8.Location = New System.Drawing.Point(120, 16)
-        Me.CheckBox8.Name = "CheckBox8"
-        Me.CheckBox8.Size = New System.Drawing.Size(61, 17)
-        Me.CheckBox8.TabIndex = 2
-        Me.CheckBox8.Text = "Videos"
-        Me.CheckBox8.UseVisualStyleBackColor = True
-        '
-        'CheckBox9
-        '
-        Me.CheckBox9.AutoSize = True
-        Me.CheckBox9.Checked = True
-        Me.CheckBox9.CheckState = System.Windows.Forms.CheckState.Checked
-        Me.CheckBox9.Enabled = False
-        Me.CheckBox9.Location = New System.Drawing.Point(187, 16)
-        Me.CheckBox9.Name = "CheckBox9"
-        Me.CheckBox9.Size = New System.Drawing.Size(76, 17)
-        Me.CheckBox9.TabIndex = 3
-        Me.CheckBox9.Text = "Text Docs."
-        Me.CheckBox9.UseVisualStyleBackColor = True
-        '
         'barsetting
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.Black
         Me.ClientSize = New System.Drawing.Size(518, 478)
         Me.Controls.Add(Me.Button6)
         Me.Controls.Add(Me.TabControl1)
